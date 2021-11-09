@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: lightcyan;
+    margin:0px;
+    padding:0px;
+}
+
+.header {
+    display: flex;
+    padding: 5px;
+    justify-content: flex-start;
+    justify-content: space-between;
+    border: solid rgba(0, 0, 128, 0.178) 0px;
+    color: black;
+    flex-wrap: wrap;
+    background-color: darkslategrey
+}
+
+.header h1 {
+    justify-content: space-between;
+    background-color: burlywood;
+}
+
+.hero {
+    height: 200px;
+    width: 100%;
+    background-image: url("../images/IMG-0823\ \(1\).jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0 20px 20px 0;
+    align-items: flex-end;
+    justify-content: space-between;
+    display: flex;
+}
+
+.hero h2 {
+    margin-left: 80%px;
+    color:red;
+    background-color: white;
+    padding: 20px;
+}
+
+.main {
+  margin-left: 200px;  
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  padding:0px;
+  flex:2;
+  flex-wrap: wrap;
+  border-left: 3px solid black;
+}
+
+/* .given { */
+    /* height: 50px; */
+    /* width: 100%; */
+    /* margin-left: 400px; */
+}
+/* .given h3 { */
+    margin-left: 80%px;
+    color:red;
+    background-color: white;
+    /* padding: 20px;  */
+}
+
+
+}
+ .container {
+     display:flex;
+     flex-flow: column wrap;
+     align-content: space-between;
+ }
+
+.about {
+    text-align: left;
+    font-size: 2em;
+    font-weight: 100;
+    flex: 1;
+    padding-top: 40`px;
+    padding-right: 5%;
+}
+
+.work {
+    text-align: left;
+    font-size: 2em;
+    font-weight: 100;
+    padding-top: 50px;
+    padding-right: 6.05%;
+    border-radius: 2px solid black;
+}
+
+.contact {
+    text-align: left;
+    font-size: 2em;
+    font-weight: 100;
+    flex: 1;
+    padding-top: 50px;
+    padding-right: 6.05%;
