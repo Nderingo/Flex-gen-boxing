@@ -27,15 +27,13 @@ body {
 }
 
 .hero {
-    height: 200px;
+    height: 300px;
     width: 100%;
     background-image: url("../images/IMG-0823\ \(1\).jpg");
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
     padding: 0 20px 20px 0;
     align-items: flex-end;
-    justify-content: space-between;
     display: flex;
 }
 
@@ -47,51 +45,56 @@ body {
 }
 
 .main {
-  margin-left: 200px;  
+  margin-left: 400px;  
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 20px;
-  padding:0px;
-  flex:2;
+  padding:20px;
+  flex:3;
   flex-wrap: wrap;
   border-left: 3px solid black;
 }
 
-/* .given { */
-    /* height: 50px; */
-    /* width: 100%; */
-    /* margin-left: 400px; */
-}
-/* .given h3 { */
-    margin-left: 80%px;
-    color:red;
-    background-color: white;
-    /* padding: 20px;  */
-}
-
+div img {
+    display: flex;
+    height: 300px;
+    width: 400px;
+    margin-left: -55px;
+    padding:40px;
+    flex-wrap: wrap;
 
 }
- .container {
-     display:flex;
-     flex-flow: column wrap;
-     align-content: space-between;
+.code img {
+    width:750px;
+    height: 400px;
+    margin-left: -55px;
+}
+
+.container {
+ display:flex;
+ border-left: 3px solid black;
+ margin-left: 400px;
+ flex:3;
+ padding: 10px;
  }
+
 
 .about {
     text-align: left;
     font-size: 2em;
     font-weight: 100;
     flex: 1;
-    padding-top: 40`px;
-    padding-right: 5%;
+    padding-top: 40px;
+    padding-right: 6.05%;
 }
 
 .work {
     text-align: left;
     font-size: 2em;
     font-weight: 100;
-    padding-top: 50px;
-    padding-right: 6.05%;
-    border-radius: 2px solid black;
+    flex:12
+    padding-top: 40px;
+    padding-right:100%;
+    
 }
 
 .contact {
@@ -101,3 +104,18 @@ body {
     flex: 1;
     padding-top: 50px;
     padding-right: 6.05%;
+}
+
+.buddy {
+    text-align: left;
+    background-color: seagreen;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.row {
+     display: flex;
+     flex-wrap: wrap;
+     margin-left: 0px;
+}
+
