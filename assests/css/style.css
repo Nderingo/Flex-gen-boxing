@@ -27,7 +27,7 @@ body {
 }
 
 .hero {
-    height: 300px;
+    height: 200px;
     width: 100%;
     background-image: url("../images/IMG-0823\ \(1\).jpg");
     background-size: cover;
@@ -37,36 +37,38 @@ body {
     display: flex;
 }
 
-.hero h2 {
-    margin-left: 80%px;
+.sub {
     color:red;
-    background-color: white;
-    padding: 20px;
+    background-color: greenyellow;
+    padding: 10px;
+    right: 100px;
+    position: absolute;
+    border: 2px solid green;
 }
 
 .main {
   margin-left: 400px;  
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 20px;
-  padding:20px;
-  flex:3;
+  padding:10px;
+  flex:1;
   flex-wrap: wrap;
   border-left: 3px solid black;
 }
 
-div img {
+.card img {
     display: flex;
     height: 300px;
     width: 400px;
-    margin-left: -55px;
+    margin-left: -30px;
     padding:40px;
-    flex-wrap: wrap;
-
 }
+
+
 .code img {
     width:750px;
-    height: 400px;
-    margin-left: -55px;
+    height: 300px;
+    margin-left: 10px;
 }
 
 .container {
@@ -75,27 +77,21 @@ div img {
  margin-left: 400px;
  flex:3;
  padding: 10px;
+ position: relative;
  }
 
 
+
 .about {
+    position:absolute;
     text-align: left;
     font-size: 2em;
     font-weight: 100;
-    flex: 1;
     padding-top: 40px;
-    padding-right: 6.05%;
+    padding-right: 2%;
+    right: 860px;
 }
 
-.work {
-    text-align: left;
-    font-size: 2em;
-    font-weight: 100;
-    flex:12
-    padding-top: 40px;
-    padding-right:100%;
-    
-}
 
 .contact {
     text-align: left;
@@ -106,16 +102,99 @@ div img {
     padding-right: 6.05%;
 }
 
-.buddy {
-    text-align: left;
-    background-color: seagreen;
-    font-size: 20px;
+.repo {
+    position: absolute;
+    bottom: 615px;
+    right: 703px;
+    background-color: greenyellow;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold; 
+    padding-block: 20px;
+    border: 2px solid green
+}
+.calc {
+position: absolute;
+ bottom: 350px;
+ right: 343px;
+ background-color: greenyellow;
+ color: black;
+ padding-left: 20px;
+ padding-right: 20px;
+ font-weight: bold;
+ padding-block: 20px;
+ border: 2px solid green;
+}
+
+.hard {
+position: absolute;
+ bottom: 350px;
+ right: 717px;
+ background-color: greenyellow;
+ color: black;
+ padding-left: 20px;
+ padding-right: 20px;
+ font-weight: bold;
+ padding-block: 20px;
+ border: 2px solid green;
+}
+
+.pastel {
+    position: absolute;
+    bottom: 50px;
+    right: 690px;
+    background-color: greenyellow;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
     font-weight: bold;
+    padding-block: 20px;
+    border: 2px solid green;
+}
+
+.buddy {
+ position: absolute;
+ bottom: 50px;
+ right: 339px;
+ background-color: greenyellow;
+ color: black;
+ padding-left: 20px;
+ padding-right: 20px;
+ font-weight: bold;
+ padding-block: 20px;
+ border: 2px solid green;
+
 }
 
 .row {
      display: flex;
      flex-wrap: wrap;
      margin-left: 0px;
+     position: relative;
 }
 
+.goat ul li {
+    padding: 20px;
+    margin-left: 100px;
+    align-items:center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    display: inline-block;
+    flex-wrap: wrap;
+    border-left: 3px solid black;
+}
+
+
+@media screen and (max-width: 992px) {
+    .card {
+      width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+}
